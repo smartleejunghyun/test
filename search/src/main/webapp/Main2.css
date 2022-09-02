@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'MYYeongnamnu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'MYYeongnamnu','Arial';
+}
+ol,
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.top{
+    position: relative;
+    background-color: rgb(26, 134, 161);
+    width: 100%;
+    height: 100px;
+    opacity: 20%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+@keyframes example {
+    0% {background-color: rgb(26, 134, 161);}
+    50% {background-color: rgb(177, 212, 78);;}
+    100% {background-color: rgb(26, 134, 161);}
+  }
+
+.title {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    opacity: 30%;
+
+}
+.title>h1 {
+    
+    text-align: center;
+    font-size: 50px;
+    opacity: 40%;
+    margin: auto;
+}
+#nav {
+    position: relative;
+}
+.top_menu {
+    position: relative;
+   
+}
+.top_menu a {
+    
+    float: right;
+    right: 10px;
+    background-color: rgb(250, 238, 234);
+    margin: 10px;
+    margin-left: 1px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    height: 30px;
+    line-height: 30px;
+    
+}
+
+.top_menu a:link,
+a:visited {
+    opacity: 70%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(143, 143, 143);
+    border: 1px solid rgba(27, 122, 177, 0.582);
+}
+.top_menu a:hover,
+a:active {
+    background-color: rgb(26, 134, 161);
+    color: aliceblue;
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+.file-upload {
+    background-color: #ffffff;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #007a7eb4;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 2px solid #d6d6d6;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 90%;
+  }
+  
+  .file-upload-btn:hover {
+    background: #006b6e;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .file-upload-btn:active {
+    border: 0;
+    transition: all .2s ease;
+  }
+  
+  .file-upload-content {
+    display: none;
+    text-align: center;
+  }
+  
+  .file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .image-upload-wrap {
+    margin-top: 20px;
+    border: 1px solid #0297bdcb;
+    position: relative;
+    opacity: 50%;
+    border-radius: 5px;
+   
+  }
+  
+  .image-dropping,
+  .image-upload-wrap:hover {
+    background-color: rgb(19, 103, 122);
+    border: 2px solid #ffffff;
+  }
+  
+  .image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+   
+  }
+  
+  .drag-text {
+    text-align: center;
+  }
+ 
+  .drag-text h3 {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #616161;
+    padding: 60px 0;
+  }
+  
+  .file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+  }
+  
+  .remove-image:active {
+    border: 0;
+    transition: all .2s ease;
+  }
